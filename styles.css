@@ -377,6 +377,10 @@ nav {
   color: #fff;
 }
 
+.small-text {
+  font-size: 14px;
+}
+
 .project__description--links {
   margin-top: 8px;
 }
