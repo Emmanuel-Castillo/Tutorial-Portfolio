@@ -39,15 +39,8 @@
       <div class="flex flex-1">
         <div class="about-me__info row">
           <div class="about-me__info--container">
-            <figure class="about-me__picture--mask">
-              <img
-                src="./assets/selfie.jpg"
-                class="about-me__picture"
-                alt="Picture of Me!"
-              />
-            </figure>
             <h1 class="about-me__info--title">
-              Hey! I'm <span class="text--purple">Emmanuel Castillo</span>
+              Hello! I'm <span class="text--purple">Emmanuel Castillo</span>
             </h1>
             <p class="about-me__info--para">
               I'm a
@@ -107,16 +100,6 @@
             <div class="language">
               <figure class="language__img--wrapper">
                 <img
-                src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
-                alt="JavaScript Logo"
-                class="language__img"
-                />
-              </figure>
-              <span class="language__name">JavaScript</span>
-            </div>
-            <div class="language">
-              <figure class="language__img--wrapper">
-                <img
                 src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
                 alt="TypeScript Logo"
                 class="language__img"
@@ -127,21 +110,53 @@
             <div class="language">
               <figure class="language__img--wrapper">
                 <img
+                src="./assets/cSharp.png"
+                alt="C# Logo"
+                class="language__img"
+                />
+              </figure>
+              <span class="language__name">C#</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                src="./assets/python.jpg"
+                alt="Python Logo"
+                class="language__img"
+                />
+              </figure>
+              <span class="language__name">Python</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                src="./assets/kotlin.png"
+                alt="Kotlin Logo"
+                class="language__img"
+                />
+              </figure>
+              <span class="language__name">Kotlin</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                src="/assets/aspnet.png"
+                alt="ASP.NET Logo"
+                class="language__img"
+                />
+              </figure>
+              <span class="language__name">ASP.NET 9</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
                 src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
                 alt="React Logo"
                 class="language__img"
                 />
               </figure>
-              <span class="language__name">React</span>
+              <span class="language__name">React.js</span>
             </div>
-              <figure class="language__img--wrapper">
-                <img
-                src="assets/django.svg"
-                alt="React Logo"
-                class="language__img"
-                />
-              </figure>
-              <span class="language__name">DJango</span>
           </div>
         </div>
       </div>
@@ -152,6 +167,36 @@
         <div class="row">
           <h1 class="section__title">Here are some of my <span class="text--purple">projects</span></h1>
           <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/medbooksys.png" class="project__img" alt="LivingDexTracker project">
+                <div class="project__description">
+                  <h3 class="project__description--title">Medical Appointment Booking Systems</h3>
+                  <h4 class="project__description--sub-title">ASP.NET Web API, C#, React.js, TypeScript, Boostrap, GitHub Actions, Azure App Services</h4>
+                  <p class="project__description--para small-text">
+                    Developed a full-stack web application that mimics an appointment booking system for a medical clinic. 
+Designed a .NET API backend where users with authorized roles (doctors, patients, admins) can perform REST 
+operations such as retrieving patient data, booking a patient’s appointment, and setting a doctor’s availability. 
+Implemented a frontend ReactJS with TypeScript to fetch data from the backend endpoints and display appointment 
+bookings, and available time slots in a professional display, integrating Bootstrap for a responsive web design. 
+Introducing GitHub Actions to create CI/CD pipelines with GitHub Actions to automate testing and deployment for 
+both frontend (Vercel) and backend (Azure) environments                   
+                  </p>
+                  <div class="project__description--links">
+                    <a href="https://github.com/Emmanuel-Castillo/MedicalApptBookingSystem" target="_blank" class="project__description--link">
+                      Backend GitHub repository
+                    </a>
+                    <a href="https://github.com/Emmanuel-Castillo/MedicalApptBookingSystem" target="_blank" class="project__description--link">
+                      Frontend GitHub repository
+                    </a>
+                    <p class="project__description--link">Deployment coming soon!</p>
+                    <!-- <a href="" target="_blank" class="project__description--link">
+                      Link to deployed web app (Coming soon!)
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+            </li>
             <li class="project">
               <div class="project__wrapper">
                 <img src="./assets/placeholder-ldt-app.png" class="project__img" alt="LivingDexTracker project">

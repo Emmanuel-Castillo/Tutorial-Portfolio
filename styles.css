@@ -305,6 +305,7 @@ nav {
 
 .project__img {
   width: 100%;
+  object-fit: cover;
   transition: all 500ms ease;
 }
 
@@ -314,6 +315,7 @@ nav {
   border-radius: 20px;
   overflow: hidden;
   position: relative;
+  min-height: 500px;
 }
 
 .project__wrapper:before {
