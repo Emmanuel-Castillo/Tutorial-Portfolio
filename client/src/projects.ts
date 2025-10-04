@@ -14,6 +14,18 @@ export type Project = {
 
 export const projects: Project[] = [
     {
+        title: "Mannys-Cloud",
+        subTitle: "ASP.NET Web API, C#, React.js, TypeScript, TailwindCSS, GitHub Actions, Azure App Services, Vercel",
+        description: "Developed a file upload and management platform where users can securely store and retrieve documents. Implemented ASP.NET Core APIs for handling authentication, metadata storage, and secure file access. Integrated Azure Blob Storage for scalable file storage and Azure CDN for global content delivery. Automated file processing workflows using Azure Functions, including virus scanning and format validation. Enhanced system reliability with Application Insights telemetry and Serilog structured logging for diagnostics andperformance monitoring.",
+        image: "/mannys-cloud.png",
+        links: [
+            {
+                name: "Vercel Link",
+                url: "https://mannys-cloud-3n2208t3n-emmanuelcastillos-projects.vercel.app/"
+            }
+        ]
+    },
+    {
         title: "Quick Chat",
         subTitle: "React.js, TailwindCSS, TypeScript, Node.js, Express.js, MongoDB, Cloudinary, Socket.io",
         description: "Developed a messaging platform where users can communicate messages and images with each other in real time. Modeled schemas for users and messages into a MongoDB Atlas cluster, which connects to a Node.js environment to perform CRUD operations for user messaging, profile editing, and account registration and login. Added image uploading into the cloud using Cloudinary API, allowing images to be accessed via public URLs. Designed a responsive frontend interface using React.js with TailwindCSS for enhanced UI/UX. Implemented real-time messaging by utilizing Socket.io to share new messages inside a client-server architecture. Introducing GitHub Actions to create CI/CD pipelines for integration and deployment using Vercel.",
