@@ -21,7 +21,7 @@ export const projects: Project[] = [
         links: [
             {
                 name: "Vercel Link",
-                url: "https://mannys-cloud-3n2208t3n-emmanuelcastillos-projects.vercel.app/"
+                url: "https://mannys-cloud.vercel.app/"
             }
         ]
     },
